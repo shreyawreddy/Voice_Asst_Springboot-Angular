@@ -1,0 +1,7 @@
+<h1>Voice Assistant</h1>
+<button (click)="startListening()">Start Listening</button>
+
+<div *ngIf="assistantSaid">
+  <h2>Assistant says:</h2>
+  <p>{{ assistantSaid }}</p>
+</div>
